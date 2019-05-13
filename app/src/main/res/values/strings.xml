@@ -1,0 +1,160 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SDPv3</string>
+    <string name="db_name">SDPUserDB</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ID Técnico</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Etiquetas para los títulos-->
+    <string name="titile_app_bar">MANTENIMIENTO</string>
+
+    <!--Etiquetas para el navigation Drawer-->
+    <string name="titile_header">ID Técnico</string>
+    <string name="item_menu_1">Text 1</string>
+    <string name="item_menu_2">Text 2</string>
+    <string name="item_menu_3">Text 3</string>
+
+    <string name="item_menu_5">Text 5</string>
+    <string name="item_menu_6">Text 6</string>
+    <string name="item_menu_7">Text 7</string>
+    <string name="item_menu_8">Text 8</string>
+    <string name="item_menu_9">Gráficar estado</string>
+    <string name="item_menu_10">Text 10</string>
+    <string name="item_menu_11">Text 11</string>
+    <string name="item_menu_12">Text 12</string>
+
+    <string name="item_menu_configuration">Configuration</string>
+    <string name="item_menu_help">Ayuda</string>
+    <string name="item_menu_firmware">Firmware</string>
+    <string name="item_menu_logout">Salir</string>
+    <string name="item_header_modules">
+        <font color="#888888">MODULOS DISPONIBLES</font>
+    </string>
+
+    <!--Etiquetas para la actualización de firmware-->
+
+    <string name="hint_last_version">Última comprobación 5 de Febrebro de 2019</string>
+    <string name="label_search_update">BUSCAR ACTUALIZACIÓN</string>
+    <string name="label_update_firmware">Actualización de Firmware</string>
+    <string name="label_data_frigarator">Datos del estado actual </string>
+    <string name="label_graph">Gráficas de dato en tiempo real</string>
+
+
+    <!--Etiquetas para home-->
+    <string name="label_tab_home">
+        <font color="#FFFFFF">
+            <small>
+                <small>Inicio</small>
+            </small>
+        </font>
+    </string>
+    <string name="label_tab_alert">
+        <font color="#FFFFFF">
+            <small>
+                <small>Alertas</small>
+            </small>
+        </font>
+    </string>
+    <string name="label_tab_conected">
+        <font color="#FFFFFF">
+            <small>
+                <small>Conectado</small>
+            </small>
+        </font>
+    </string>
+    <string name="label_tab_location">
+        <font color="#FFFFFF">
+            <small>
+                <small>Ubicación</small>
+            </small>
+        </font>
+    </string>
+    <string name="label_tab_energy">
+        <font color="#FFFFFF">
+            <small>
+                <small>Energía</small>
+            </small>
+        </font>
+    </string>
+
+    <!--Etiquetas para conectado-->
+    <string name="label_getBluetooth_conection">Da click para establecer la conexión con algún dispositivo</string>
+    <string name="label_available_devices">EQUIPOS DISPONIBLES</string>
+    <string name="label_bonded_devices">EQUIPOS PREVIAMENTE VINCULADOS</string>
+
+
+    <!--Etiquetas para titulos-->
+    <string name="label_title_maintenance" tools:ignore="ExtraTranslation">MANTENIMIENTO</string>
+    <string name="label_title_alerts">ALERTAS</string>
+    <string name="label_title_conected">CONEXIÓN</string>
+    <string name="label_title_location">UBICACIÓN</string>
+    <string name="label_title_energy" tools:ignore="ExtraTranslation">ENERGÍA</string>
+
+    <!--Etiquetas para location-->
+    <string name="label_subtitle_ruteday">Ruta del día</string>
+    <string name="label_priority">PRIORIDAD</string>
+    <string name="label_commerce">COMERCIO/LUGAR</string>
+    <string name="label_time">TIEMPO APROXIMADO: 2 hrs 28 min</string>
+
+    <string name="title_activity_scan">ScanActivity</string>
+    <string name="button_start_scan">Start scan</string>
+    <string name="button_stop_scan">Stop scan</string>
+    <string name="mac_address">MAC: %s</string>
+    <string name="connection_state">State: %s</string>
+    <string name="format_rssi">RSSI: %d</string>
+    <string name="prefix_hex">0x</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="connecting">Connecting</string>
+    <string name="button_read">Read</string>
+    <string name="button_write">Write</string>
+    <string name="button_setup_notification">Register notifications</string>
+    <string name="setting_notification">Setting up notifications…</string>
+    <string name="teardown_notification">Disable notifications</string>
+    <string name="button_setup_indication">Register indications</string>
+    <string name="setting_indication">Setting up indications…</string>
+    <string name="teardown_indication">Disable indications</string>
+    <string name="warning_notify_indicate_compat">NOTIFY &amp; INDICATE COMPATIBILITY MODE ONLY</string>
+    <string name="title_example1">Example RxAndroidBle usage</string>
+    <string name="title_example2">Connection &amp; connection state</string>
+    <string name="title_example3">Service discovery</string>
+    <string name="title_example4">Characteristic operations</string>
+    <string name="title_example5">Rssi periodic</string>
+    <string name="title_example7">Long write</string>
+    <string name="not_clickable">No action</string>
+    <string name="edit_text_write_input">Write input</string>
+    <string name="button_scan_in_background">Scan in background</string>
+    <string name="title_hello_bluetooth_world">Hello Bluetooth World!</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_service_discovery">Service discovery</string>
+    <string name="toggle_autoconnect">Autoconnect</string>
+    <string name="title_set_mtu">Set MTU:</string>
+    <string name="button_set">Set</string>
+    <string name="button_connect_and_discover_services">Connect &amp; discover services</string>
+    <string name="button_run_custom">Run Custom</string>
+    <string name="title_characteristic">Characteristic:</string>
+    <string name="title_service">Service:</string>
+
+    <!-- Ble scan error messages -->
+    <string name="error_bluetooth_not_available">Bluetooth is not available</string>
+    <string name="error_bluetooth_disabled">Enable bluetooth and try again</string>
+    <string name="error_location_permission_missing">On Android 6.0 location permission is required. Please enable it in
+        phone settings
+    </string>
+    <string name="error_location_services_disabled">Location services need to be enabled on Android 6.0</string>
+    <string name="error_scan_failed_already_started">Scan with the same filters is already started</string>
+    <string name="error_scan_failed_application_registration_failed">Failed to register application for bluetooth scan
+    </string>
+    <string name="error_scan_failed_feature_unsupported">Scan with specified parameters is not supported</string>
+    <string name="error_scan_failed_internal_error">Scan failed due to internal error</string>
+    <string name="error_scan_failed_out_of_hardware_resources">Scan cannot start due to limited hardware resources
+    </string>
+    <string name="error_undocumented_scan_throttle">Android 7+ does not allow more scans.</string>
+    <string name="error_undocumented_scan_throttle_retry">Try in %d seconds</string>
+    <string name="error_bluetooth_cannot_start">Unable to start scanning</string>
+    <string name="error_unknown_error">Unknown error</string>
+    <string name="error_no_message">No message found for reason=%d. Consider adding one.</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

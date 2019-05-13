@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3AAA35</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#222222</color>
+    <color name="colorNavigationDrawer">#222222</color>
+    <color name="colorTitleNavigationDrawer">#888888</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDivider">#333333</color>
+    <color name="colorTabIndicator">#288024</color>
+    <color name="colorLines">#CDCDCD</color>
+    <color name="color_status_green">#F9B233</color>
+    <color name="color_status_yellow">#3AAA35</color>
+    <color name="color_status_red">#FF0000</color>
+    <color name="color_blue">#004A98</color>
+    <color name="color_gray_light">#EDEDED</color>
+    <color name="color_gray_dark">#DADADA</color>
+    <color name="color_gray_menu">#BDBDBD</color>
+
+
+</resources>

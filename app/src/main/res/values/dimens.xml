@@ -1,0 +1,108 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+
+    <!-- Dimensiones generalaes-->
+    <dimen name="adjustable_width">0dp</dimen>
+    <dimen name="adjustable_height">0dp</dimen>
+    <dimen name="dimen_xxxshort">1dp</dimen>
+    <dimen name="dimen_xxshort">2dp</dimen>
+    <dimen name="dimen_xshort">4dp</dimen>
+    <dimen name="dimen_short">8dp</dimen>
+    <dimen name="dimen_normal">12dp</dimen>
+    <dimen name="dimen_medium">16dp</dimen>
+    <dimen name="dimen_large">32dp</dimen>
+    <dimen name="dimen_xlarge">48dp</dimen>
+    <dimen name="dimen_xxlarge">64dp</dimen>
+    <dimen name="dimen_xxxlarge">96dp</dimen>
+    <dimen name="width_button">197dp</dimen>
+    <dimen name="height_button">45dp</dimen>
+    <!--Dimensiones para margins-->
+    <dimen name="margin_xxxshort">1dp</dimen>
+    <dimen name="margin_xxshort">2dp</dimen>
+    <dimen name="margin_xshort">4dp</dimen>
+    <dimen name="margin_short">8dp</dimen>
+    <dimen name="margin_top">12dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_xlarge">48dp</dimen>
+    <dimen name="margin_xxlarge">64dp</dimen>
+    <dimen name="margin_xxxlarge">96dp</dimen>
+
+    <!--Dimensiones para paddings-->
+
+    <dimen name="padding_xxxshort">1dp</dimen>
+    <dimen name="padding_xshort">4dp</dimen>
+    <dimen name="padding_short">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">32dp</dimen>
+    <dimen name="padding_xlarge">64dp</dimen>
+    <dimen name="padding_xxlarge">128dp</dimen>
+    <dimen name="padding_xxxlarge">256dp</dimen>
+
+
+    <!--Dimensiones para view-->
+    <dimen name="view_xxxshort">1dp</dimen>
+
+    <!--Dimensiones para textos-->
+    <dimen name="text_size_h00">48sp</dimen>
+    <dimen name="text_size_h0">36sp</dimen>
+    <dimen name="text_size_h1">24sp</dimen>
+    <dimen name="text_size_h2">21sp</dimen>
+    <dimen name="text_size_h3">18sp</dimen>
+    <dimen name="text_size_h4">15sp</dimen>
+    <dimen name="text_size_h5">12sp</dimen>
+    <dimen name="text_size_h6">10sp</dimen>
+    <dimen name="text_size_h7">6sp</dimen>
+
+    <!--Dimensiones para radios-->
+    <dimen name="radius_xshort">4dp</dimen>
+    <dimen name="radius_short">8dp</dimen>
+    <dimen name="radius_normal">16dp</dimen>
+    <dimen name="radius_medium">32dp</dimen>
+
+    <dimen name="radius_button">16dp</dimen>
+    <!--Dimensiones para elevacion-->
+    <dimen name="elevation_profile">1dp</dimen>
+    <dimen name="elevation_xxxshort">1dp</dimen>
+    <dimen name="elevation_xxshort">2dp</dimen>
+    <dimen name="elevation_xshort">4dp</dimen>
+    <dimen name="elevation_short">8dp</dimen>
+    <dimen name="elevetion_normal">12dp</dimen>
+    <dimen name="elevation_medium">16dp</dimen>
+    <dimen name="elevation_large">32dp</dimen>
+    <dimen name="elevation_xlarge">48dp</dimen>
+    <dimen name="elevation_xxlarge">64dp</dimen>
+    <dimen name="elevation_xxxlarge">96dp</dimen>
+    <!--Dimenciones para imagenes-->
+    <dimen name="width_image_area">256dp</dimen>
+    <dimen name="height_image_area">180dp</dimen>
+    <dimen name="width_progress_bar">64dp</dimen>
+    <dimen name="height_progress_bar">64dp</dimen>
+    <dimen name="width_image_product">64dp</dimen>
+    <dimen name="height_image_product">64dp</dimen>
+    <dimen name="width_image_card">32dp</dimen>
+    <dimen name="height_image_card">32dp</dimen>
+
+
+    <dimen name="width_image_Drink">128dp</dimen>
+    <dimen name="height_image_Drink">128dp</dimen>
+
+    <!--Dimenciones para Drawable-->
+    <dimen name="radius_pin_circle">166dp</dimen>
+    <!--Dimenciones para CollapsingToolbar-->
+
+
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+
+
+    <dimen name="input_label_vertical_spacing">2dp</dimen>
+    <dimen name="input_label_horizontal_spacing">4dp</dimen>
+
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">UtilitiesKotlin</string>
+    <string name="error_date">Invalid Date</string>
+</resources>

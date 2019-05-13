@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:background="@color/colorWhite"
+                                             xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+            android:id="@+id/imgBluetoothInfo"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorNavigationDrawer"/>
+
+
+    <TextView
+            app:layout_constraintTop_toTopOf="@id/imgBluetoothInfo"
+            app:layout_constraintBottom_toBottomOf="@id/imgBluetoothInfo"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:textSize="@dimen/text_size_h3"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_getBluetooth_conection"
+            android:textAlignment="center"
+    />
+
+    <TextView
+
+            android:id="@+id/tvHeaderActiveDevices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:layout_constraintTop_toBottomOf="@id/imgBluetoothInfo"
+            android:text="@string/label_available_devices"
+    />
+
+    <View
+            android:id="@+id/viewLine"
+            android:layout_width="@dimen/adjustable_width"
+            android:layout_height="@dimen/dimen_xxxshort"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_short"
+            android:backgroundTint="@color/colorAccent"
+            android:background="@color/colorPrimary"
+            app:layout_constraintLeft_toRightOf="@id/tvHeaderActiveDevices"
+            app:layout_constraintBottom_toBottomOf="@id/tvHeaderActiveDevices"
+            app:layout_constraintRight_toRightOf="parent"/>
+      <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/tvHeaderActiveDevices"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/guidelineH60"
+   >
+</android.support.v7.widget.RecyclerView>
+    <android.support.constraint.Guideline
+            android:id="@+id/guidelineH60"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/view_xxxshort"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+    <TextView
+
+            android:id="@+id/tvHeaderBondedDevices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            app:layout_constraintTop_toBottomOf="@id/guidelineH60"
+            android:text="@string/label_bonded_devices"
+    />
+
+    <View
+            android:id="@+id/viewLineTwo"
+            android:layout_width="@dimen/adjustable_width"
+            android:layout_height="@dimen/dimen_xxxshort"
+            android:layout_marginEnd="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_short"
+            android:backgroundTint="@color/colorAccent"
+            android:background="@color/colorPrimary"
+            app:layout_constraintLeft_toRightOf="@id/tvHeaderBondedDevices"
+            app:layout_constraintBottom_toBottomOf="@id/tvHeaderBondedDevices"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerBondedBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/tvHeaderBondedDevices"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginBottom="@dimen/margin_large"
+            app:layout_constraintBottom_toTopOf="@id/progressScan"
+    >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <ProgressBar
+            android:id="@+id/progressScan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:indeterminate="true"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:progressBackgroundTint="@color/colorPrimary"
+            app:layout_constraintTop_toBottomOf="@id/recyclerBondedBluetooth"
+            app:layout_constraintBottom_toBottomOf="parent"
+    />
+
+    <Button
+
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/scan"
+            app:layout_constraintTop_toBottomOf="@id/recyclerBondedBluetooth"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/margin_medium"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorWhite"
+            android:text="Escanear"
+
+
+    />
+</android.support.constraint.ConstraintLayout>

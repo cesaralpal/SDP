@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<TableLayout
+        android:id="@+id/tableEnergy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@color/color_status_green"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+>
+
+    <TableRow
+        android:id="@+id/cabecera"
+        android:background="@color/color_gray_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+    <TextView
+            android:id="@+id/colBlank"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+
+    />
+    <TextView
+            android:id="@+id/colMin"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Min."
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_h4" />
+
+    <TextView
+            android:id="@+id/ColMax"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Max."
+            android:gravity="center"
+
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_h4" />
+
+    <TextView
+            android:id="@+id/colProm"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Prom."
+            android:gravity="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_h4" />
+
+</TableRow>
+
+    <TableRow
+            android:id="@+id/headerDaily"
+            android:background="@color/color_gray_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        <TextView
+                android:id="@+id/colDay"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Día"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h4"
+
+        />
+        <TextView
+                android:id="@+id/dailyMin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@color/color_gray_dark"
+                android:text="Min."
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3" />
+
+        <TextView
+                android:id="@+id/dailyMax"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Max."
+                android:background="@color/color_gray_dark"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3" />
+
+        <TextView
+                android:id="@+id/dailyProm"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Prom."
+                android:gravity="center"
+                android:background="@color/color_gray_dark"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3" />
+    </TableRow>
+    <TableRow
+            android:id="@+id/headerWeekly"
+            android:background="@color/color_gray_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        <TextView
+                android:id="@+id/colWeek"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Semana"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h4"
+
+        />
+        <TextView
+                android:id="@+id/weekMin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Min."
+                android:background="@color/color_gray_dark"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3" />
+
+        <TextView
+                android:id="@+id/weekMax"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Max."
+                android:gravity="center"
+                android:background="@color/color_gray_dark"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3" />
+
+        <TextView
+                android:id="@+id/weekProm"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Prom."
+                android:gravity="center"
+                android:background="@color/color_gray_dark"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3" />
+
+
+    </TableRow>
+    <TableRow
+            android:id="@+id/headerMonthly"
+            android:background="@color/color_gray_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        <TextView
+                android:id="@+id/colMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Mes"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h4"
+
+        />
+        <TextView
+                android:id="@+id/MonthMin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Min."
+                android:background="@color/color_gray_dark"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3" />
+
+        <TextView
+                android:id="@+id/MonthMax"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@color/color_gray_dark"
+                android:text="Max."
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3" />
+
+        <TextView
+                android:id="@+id/MonthProm"
+                android:layout_width="wrap_content"
+                android:background="@color/color_gray_dark"
+                android:layout_height="50dp"
+                android:text="Prom."
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3" />
+
+
+    </TableRow>
+    <TableRow
+            android:id="@+id/headerAnually"
+            android:background="@color/color_gray_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        <TextView
+                android:id="@+id/colYear"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Año"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h4"
+
+        />
+        <TextView
+                android:id="@+id/YearMin"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="Min."
+                android:background="@color/color_gray_dark"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3" />
+
+        <TextView
+                android:id="@+id/YearMax"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@color/color_gray_dark"
+                android:text="Max."
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3"/>
+
+        <TextView
+                android:id="@+id/YearProm"
+                android:layout_width="wrap_content"
+                android:background="@color/color_gray_dark"
+                android:layout_height="50dp"
+                android:text="Prom."
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/text_size_h3" />
+
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>
+</android.support.constraint.ConstraintLayout>
